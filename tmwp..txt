@@ -1,0 +1,32 @@
+namespace tmwp
+{
+class Request
+{
+public:
+char method;
+char *resource;
+char isClientSideTechnologyResource;
+char *mimeType;
+int dataCount;
+char **data;
+};
+class Response
+{
+private:
+int clientSocketDescriptor);
+void write(char *str);
+void close();
+};
+class TMWebprojector
+{
+private:
+int portNumber;
+char *url;
+void (*ptrOnRequest)(Request &,Response &);
+public:
+TMWebprojector(int portNumber);
+~TMWebprojector();
+void start();
+void onRequest(const char *url,void(*ptrOnRequest)(Request &,Response &));
+};
+}
