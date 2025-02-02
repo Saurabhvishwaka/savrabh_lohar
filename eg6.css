@@ -1,0 +1,133 @@
+@charset "utf-8";
+div{
+width:720px;
+height:480px;
+border:3px solid red;
+margin: 0 auto;
+background:url(images/a.jpg);
+background-size:cover;
+-webkit-animation:sau 12S infinite;
+-o-animation:sau 12S infinite;
+-moz-animation:sau 12S infinite;
+animation:sau 12S infinite;
+}
+div:hover{
+-webkit-animation:sau 12S infinite;
+-o-animation:sau 12S infinite;
+-moz-animation:sau 12S infinite;
+animation:sau 12S infinite;
+}
+-webkit-@keyframes sau{
+0%{background:url(images/a.jpg);background-size:cover;}
+25%{background:url(images/b.jpg);background-size:cover;}
+50%{background:url(images/c.jpg);background-size:cover;}
+75%{background:url(images/d.jpg);background-size:cover;}
+100%{background:url(images/e.jpg);background-size:cover;}
+}
+-o-@keyframes sau{
+0%{background:url(images/a.jpg);background-size:cover;}
+25%{background:url(images/b.jpg);background-size:cover;}
+50%{background:url(images/c.jpg);background-size:cover;}
+75%{background:url(images/d.jpg);background-size:cover;}
+100%{background:url(images/e.jpg);background-size:cover;}
+}
+-moz-@keyframes sau{
+0%{background:url(images/a.jpg);background-size:cover;}
+25%{background:url(images/b.jpg);background-size:cover;}
+50%{background:url(images/c.jpg);background-size:cover;}
+75%{background:url(images/d.jpg);background-size:cover;}
+100%{background:url(images/e.jpg);background-size:cover;}
+}
+@keyframes sau{
+0%{background:url(images/a.jpg);background-size:cover;}
+25%{background:url(images/b.jpg);background-size:cover;}
+50%{background:url(images/c.jpg);background-size:cover;}
+75%{background:url(images/d.jpg);background-size:cover;}
+100%{background:url(images/e.jpg);background-size:cover;}
+}
+footer{
+border: 2px solid black;
+background-color:black;
+width:100%;
+height:200px;
+}
+h1
+{
+font-size:30px;
+margin:100px;
+color:rgba(120, 120, 120, 120);
+text-align:center;
+display:inline-block;
+}
+h2
+{
+//font-size:30px;
+margin:0;
+top:0;
+//color:rgba(125, 120, 120, 120);
+color:white;
+float:right;
+}
+nav
+{
+width:100%;
+height:100px;
+border: 2px solid pink;
+background-color:blue;
+}
+ul
+{
+
+
+}
+li
+{
+list-style:none;
+color:white;
+float:left;
+}
+#ram{
+width:10%;
+font-size:30px;
+}
+a
+{
+text-decoration:none;
+color:white;
+}
+section
+{
+background-color:purple;
+height:60px;
+border: 3px solid gray;
+margin:0;
+top:0;
+font-size:20px;
+text-align:center;
+color:white;
+}
+.kaka
+{
+width:22.32%;
+height:480px;
+background-color:pink;
+border:3px solid purple;
+float:left;
+}
+.radha
+{
+width20px;
+height:30px;
+margin:10px;
+border: 2px solid black;
+border-radius:10px/10px;
+font-size:20px;
+required:required;
+}
+.parth
+{
+width:80px;
+height:35px;
+float:left;
+margin:5px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Video create</title>
+<link rel="stylesheet" href="eg25.css">
+<style>
+#box
+{
+width:720px;
+height:520px;
+border:2px solid blue;
+margin:20px auto;
+}
+</style>
+</head>
+<body>
+<div id="box">
+<header>
+<h1>supriya Video Player</h1>
+</header>
+<section>
+<video id="vi" id="mn"src="images/vi.mp4" controls="controls" downloads="downloads">
+</section>
+<footer>
+<input type="file" accept=".mp4" id="video">
+<button id="btn">upload </button>
+<button id="btn" onclick="play()">play </button>
+<button id="btn">pause </button>
+</footer>
+</div>
+<script>
+functiuon play()
+{
+var a=document.getElementById("mn");
+a.play();
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<title>
+scope
+</title>
+<head>
+</head>
+<body>
+<script>
+var i="i am scope variable";
+function display()
+{
+window.alert(i);
+}
+function show()
+{
+document.write(i);
+}
+show();
+function nitya()
+{
+var m="i am local variable";
+document.write(m);
+}
+nitya();
+display();
+</script>
+</body>
+</html>
